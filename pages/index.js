@@ -3,6 +3,7 @@ import React from "react";
 import Header from "../components/Header";
 import SwiperSliderComponent from "../components/SwiperComponent";
 import WhoWeAre from "../components/WhoWeAre";
+import Concepts from "../components/Concepts";
 
 export default function Home() {
   return (
@@ -10,6 +11,7 @@ export default function Home() {
       <Header />
       <SwiperSliderComponent />
       <WhoWeAre />
+      <Concepts />
     </div>
   );
 }
