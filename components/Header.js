@@ -23,8 +23,8 @@ export default function Header() {
           ref={resMenuHeader}
         >
           <div className="mx-[5px] mix-blend-difference font-monument font-semibold text-[20px] leading-none">
-            Taimoor <br />
-            Shahzada
+            Robson <br />
+            Correia
           </div>
           <div className="block cursor-pointer mx-[5px]">
             <Image src={close} className="w-9 object-contain invert" alt="" />
@@ -56,7 +56,7 @@ export default function Header() {
       <div className="absolute bg-black top-0 py-[5px] font-neutralFace h-[20vh] flex justify-between w-[100%] flex-col">
         <div id="header" className="flex items-start justify-between w-[100%] h-fit">
             <div className="mx-[5px] mix-blend-difference font-monument font-semibold text-[20px] leading-none">
-                Taimoor <br/> Shahzada
+                Robson <br/> Correia
             </div>
             <div className="max-1 md:block hidden mix-blend-difference font-neutralFace font-bold text-[30px]">
                 WORK
@@ -73,6 +73,12 @@ export default function Header() {
             <div className="block md:hidden cursor-pointer mx-[5px]">
                 <Image src={menu} alt="" className="w-9 object-contain invert"/>
             </div>
+        </div>
+        <div className="flex items-start text-sm justify-between sm:justify-evenly px-5 w-[100%] h-fit">
+            <div>
+                An independent <br/> music agency
+            </div>
+            <div>Amsterdam</div>
         </div>
       </div>
     </div>
