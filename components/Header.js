@@ -50,8 +50,8 @@ function Header() {
           ref={resMenuHeader}
         >
           <div className="mx-[5px] mix-blend-difference font-monument font-semibold text-[20px] leading-none">
-            Taimoor <br />
-            Shahzada
+            Robson <br />
+            Correia
           </div>
           <div
             onClick={menuOpen}
@@ -101,7 +101,7 @@ function Header() {
           className="flex items-start justify-between w-[100%] h-fit"
         >
           <div className="mx-[5px] mix-blend-difference font-monument font-semibold text-[20px] leading-none">
-            Taimoor <br /> Shahzada
+            Robson <br /> Correia
           </div>
           <div className="mx-1 md:block hidden mix-blend-difference font-neutralFace font-bold text-[30px]">
             WORK
