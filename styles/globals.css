@@ -37,7 +37,7 @@
 @tailwind utilities;
 
 body {
-  /* background-color: black; */
+  background-color: black;
   overflow-x: hidden;
   color: #e7e7e7;
 }

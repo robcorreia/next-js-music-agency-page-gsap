@@ -1,5 +1,5 @@
 {
-  "name": "sizzer-clone",
+  "name": "sizzer-clone-yt-video",
   "version": "0.1.0",
   "private": true,
   "scripts": {
@@ -9,15 +9,17 @@
     "lint": "next lint"
   },
   "dependencies": {
-    "next": "14.0.1",
-    "react": "^18",
-    "react-dom": "^18"
+    "eslint": "8.27.0",
+    "eslint-config-next": "13.0.2",
+    "gsap": "^3.11.3",
+    "next": "13.0.2",
+    "react": "18.2.0",
+    "react-dom": "18.2.0",
+    "swiper": "^8.4.4"
   },
   "devDependencies": {
-    "autoprefixer": "^10.4.16",
-    "eslint": "^8",
-    "eslint-config-next": "14.0.1",
-    "postcss": "^8.4.31",
-    "tailwindcss": "^3.3.5"
+    "autoprefixer": "^10.4.13",
+    "postcss": "^8.4.18",
+    "tailwindcss": "^3.2.2"
   }
 }
