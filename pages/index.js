@@ -5,6 +5,7 @@ import SwiperSliderComponent from "../components/SwiperComponent";
 import WhoWeAre from "../components/WhoWeAre";
 import Concepts from "../components/Concepts";
 import Publications from "../components/Publications";
+import Awards from "../components/Awards";
 
 export default function Home() {
   return (
@@ -14,6 +15,7 @@ export default function Home() {
       <WhoWeAre />
       <Concepts />
       <Publications />
+      <Awards />
     </div>
   );
 }
