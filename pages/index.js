@@ -6,6 +6,8 @@ import WhoWeAre from "../components/WhoWeAre";
 import Concepts from "../components/Concepts";
 import Publications from "../components/Publications";
 import Awards from "../components/Awards";
+import Office from "../components/Office";
+import Footer from "../components/Footer";
 
 export default function Home() {
   return (
@@ -16,6 +18,8 @@ export default function Home() {
       <Concepts />
       <Publications />
       <Awards />
+      <Office />
+      <Footer />
     </div>
   );
 }
